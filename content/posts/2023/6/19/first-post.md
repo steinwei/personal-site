@@ -1,6 +1,6 @@
 +++
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
+title = "First Post"
+date = 2023-06-19T23:05:10+08:00
 draft = false
 description = ""
 subtitle = ""
@@ -12,3 +12,5 @@ categories = []
 series = []
 comment = true
 +++
+
+123123
