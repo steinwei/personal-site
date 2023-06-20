@@ -1,4 +1,4 @@
-title = "Puppet"
+title = "Stein Blog"
 
 theme = "puppet"
 
@@ -50,11 +50,6 @@ name = "Archive"
 url = "/archive/"
 weight = 10
 [[menu.main]]
-identifier = "guide"
-name = "Guide"
-url = "/series/themes-guide/"
-weight = 20
-[[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about/"
@@ -67,8 +62,8 @@ weight = 100
 
 
 [params]
-author = "Puppet"
-description = "A simple and clean theme for Hugo"
+author = "Stein"
+description = "Web developer"
 keywords = "blog,developer,personal"
 img_home = "img/home-bg.jpg"
 img_404 = "img/404-bg.jpg"
@@ -80,17 +75,17 @@ custom_css = [] # ["css/custom.css"]  Add your file to assets folder  [assets/cs
 
 [params.sidebar]
 enable = true
-gravatarEmail = ""
+gravatarEmail = "weishijiestein@outlook.com"
 # Overwritten by your gravatar image if `gravatarEmail` is filled
 avatar = "img/home-bg.jpg"
-bio = "a personal website"
+bio = "a fullstack JS developer."
 
 [params.social]
-twitter = "johndoe"
+twitter = "steinw"
 facebook = "johndoe"
 zhihu = "johndoe"
 weibo = "johndoe"
-github = "johndoe"
+github = "steinwei"
 gitlab = "johndoe"
 linkedin = "johndoe"
 rss = true
@@ -100,14 +95,6 @@ icon = "fab fa-mastodon"
 format = "https://mastodon.social/%v"
 id = "johndoe"
 url = ""
-
-[[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
-
-[[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
 
 # See https://giscus.app/
 [params.giscus]
